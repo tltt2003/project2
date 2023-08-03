@@ -1,0 +1,42 @@
+* {
+  font-family: "Open Sans";
+}
+span {
+  color: var(--white, #fff);
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+p {
+  padding: 0px;
+  margin-top: 0px;
+  color: var(--white, #fff);
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+.dark .picture {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.dark_form {
+  margin-top: 72px;
+  margin-left: 40px;
+  margin-right: 10%;
+}
+.dark {
+  display: flex;
+  margin-bottom: 64px;
+  height: 184px;
+  width: 660px;
+  border-radius: 16px;
+  background: var(
+    --cards-1-dark-background,
+    linear-gradient(90deg, #25335a 0%, #141824 100%)
+  );
+}
